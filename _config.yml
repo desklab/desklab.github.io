@@ -21,7 +21,7 @@
 title: desklab
 description: desklab support page
 baseurl: '' # the subpath of your site, e.g. /support
-url: localhost:4000 # the base hostname & protocol for your site, e.g. http://example.com
+url: support.desk-lab.de # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
