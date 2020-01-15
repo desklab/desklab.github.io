@@ -20,8 +20,8 @@
 
 title: desklab
 description: desklab support page
-baseurl: /desklab.github.io # the subpath of your site, e.g. /support
-url: desklab.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: / # the subpath of your site, e.g. /support
+url: https://support.desk-lab.de # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
 
 content_type: Knowledge Base #Define whether this is a knowledge base, help center, or something else
