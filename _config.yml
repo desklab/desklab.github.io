@@ -57,14 +57,14 @@ nav_button: Return to desklab Homepage
 nav_button_link: https://desk-lab.de/
 
 # More Help
-help_one_title: desklab Bugs
-help_one_content: If you find any bugs or problems on this page, please open an issue over on Github.
-help_one_button: Github
+help_one_title: Fehler gefunden?
+help_one_content: Verbesserungsvorschläge oder Fehler können als Issue auf Github eingereicht bzw. gemeldet werden.
+help_one_button: Github Issues
 help_one_link: https://github.com/desklab/desklab.github.io
 
-help_two_title: desklab Docs
-help_two_content: More documents for educational use are provided on our Homepage.
-help_two_button: Educational Documents
+help_two_title: Unterrichtsmaterial
+help_two_content: Dokumente für den Gebrauch im Unterricht sind im desklab-Lehrerportal hinterlegt.
+help_two_button: desklab Lehrerportal
 help_two_link: https://desk-lab.de/docs/
 
 # Build settings
