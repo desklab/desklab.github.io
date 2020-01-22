@@ -60,7 +60,7 @@ nav_button_link: https://desk-lab.de/
 help_one_title: Fehler gefunden?
 help_one_content: Verbesserungsvorschläge oder Fehler können als Issue auf Github eingereicht bzw. gemeldet werden.
 help_one_button: Github Issues
-help_one_link: https://github.com/desklab/desklab.github.io
+help_one_link: https://github.com/desklab/desklab.github.io/issues
 
 help_two_title: Unterrichtsmaterial
 help_two_content: Dokumente für den Gebrauch im Unterricht sind im desklab-Lehrerportal hinterlegt.
