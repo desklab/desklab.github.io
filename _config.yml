@@ -44,17 +44,20 @@ instagram_username: desklab_ug
 
 
 # Navivation
-nav_item_one: GitHub
-nav_item_one_link: https://github.com/desklab/
+nav_item_one: #GitHub
+nav_item_one_link: #https://github.com/desklab/
 
-nav_item_two: desklab Lehrerportal
-nav_item_two_link: https://desk-lab.de/docs/#
+nav_item_two: #desklab Lehrerportal
+nav_item_two_link: #https://desk-lab.de/docs/#
 
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: desklab Homepage
-nav_button_link: https://desk-lab.de/
+nav_button_one: desklab Lehrerportal
+nav_button_one_link: https://desk-lab.de/docs/
+
+nav_button_two: desklab Homepage
+nav_button_two_link: https://desk-lab.de/
 
 # More Help
 help_one_title: Fehler gefunden?
