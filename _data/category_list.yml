@@ -3,10 +3,10 @@
 
 getting-started:
   name: Getting Started
-  description: Installation, Setup and First Steps!
-using-device:
-  name: Using desklab Photometer
-  description: Information on the use of desklab Photometer devices.
-using-library:
-  name: Using desklab Arduino library
-  description: Information on the use of the desklab Arudino library.
+  description: Installation und Erste Schritte.
+arduino-ide:
+  name: Arduino IDE
+  description: Informationen zur Nutzung der Arduino Entwicklungsumgebung.
+arduino-library:
+  name: Arduino Bibliothek
+  description: Informationen zur Nutzung der desklab Arduino Bibliothek.
