@@ -18,9 +18,9 @@ Die Steckbretter werden von desklab nicht selbst hergestellt, sondern als Einzel
 ### Wie finde ich die zu meiner Variante passenden Dokumente?
 Die Dokumente werden im Lehrerportal [(Link)](https://www.desk-lab.de/docs) zur Verfügung gestellt. Dort sind die Dokumete mit verschiedenen Tags markiert. Die **Variante A** ist dabei mit `SB-A`, die **Variante B** mit `SB-B` gekennzeichnet.
 
-Außerdem gibt es eine Variante der Abbildungen zum Aufbau der Schaltung die speziell für die Lesbarkeit bei einem schwarz-weiß-Ausdruck optimiert ist. Diese ist mit `S-W` (="Schwarz-Weiß") gekennzeichnet.
+Außerdem gibt es eine Variante der Abbildungen, die speziell für die Lesbarkeit bei einem schwarz-weiß-Ausdruck optimiert ist. Diese ist mit `S-W` (="Schwarz-Weiß") gekennzeichnet.
 
 
 ### Wie funktioniert das Steckbrett?
-Mit dem Steckbrett können Kabel und Bauteile miteinander verbunden werden, ohne dass sie verlötet werden müssen. Daher wird es normalerweise zum Testen bzw. dem temporären Aufbau von Schaltungen genutzt. Die farbigen Markierungen in der nachfolgenden Abbildung zeigen beispielhaft, wie die einzelnen Steckplätze verbunden sind.
+Mit dem Steckbrett können Kabel und Bauteile miteinander verbunden werden, ohne dass sie verlötet werden müssen. Daher wird es normalerweise zum Testen bzw. für den temporären Aufbau von Schaltungen genutzt. Die farblichen Markierungen in der nachfolgenden Abbildung zeigen beispielhaft, wie die einzelnen Steckplätze verbunden sind.
 ![img:breadboard-connections]({{site.url}}/assets/breadboard-connections.png)
