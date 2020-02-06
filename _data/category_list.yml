@@ -4,9 +4,9 @@
 getting-started:
   name: Getting Started
   description: Installation und Erste Schritte.
-arduino-ide:
-  name: Arduino IDE
+arduino:
+  name: Arduino
   description: Informationen zur Nutzung der Arduino Entwicklungsumgebung.
-arduino-library:
-  name: Arduino Bibliothek
-  description: Informationen zur Nutzung der desklab Arduino Bibliothek.
+photometer:
+  name: Photometer
+  description: Informationen zur Nutzung des desklab Photometers.

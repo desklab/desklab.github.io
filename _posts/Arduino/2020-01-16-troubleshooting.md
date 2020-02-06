@@ -2,7 +2,7 @@
 layout: post
 title: Troubleshooting Arduino IDE
 date: 2020-01-16 12:40:00 -0400
-category: arduino-ide
+category: arduino
 short-description: Erklärungen zu häufigen Fehlermeldungen Arduino Entwicklungsumgebung
 ---
 
