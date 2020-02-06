@@ -18,7 +18,7 @@ Die Steckbretter werden von desklab nicht selbst hergestellt, sondern als Einzel
 ### Wie finde ich die zu meiner Variante passenden Dokumente?
 Die Dokumente werden im Lehrerportal [(Link)](https://www.desk-lab.de/docs) zur Verfügung gestellt. Dort sind die Dokumete mit verschiedenen Tags markiert. Die **Variante A** ist dabei mit `SB-A`, die **Variante B** mit `SB-B` gekennzeichnet.
 
-Außerdem gibt es eine Variante der Abbildungen zum Aufbau der Schaltung die speziell für die Lesbarkeit bei einem schwarz-weiß-Ausdruck optimiert ist. Diese ist mit `B/W` gekennzeichnet.
+Außerdem gibt es eine Variante der Abbildungen zum Aufbau der Schaltung die speziell für die Lesbarkeit bei einem schwarz-weiß-Ausdruck optimiert ist. Diese ist mit `S-W` (="Schwarz-Weiß") gekennzeichnet.
 
 
 ### Wie funktioniert das Steckbrett?
