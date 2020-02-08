@@ -11,7 +11,7 @@ short-description: Erklärungen zu häufigen Fehlermeldungen Arduino Entwicklung
 ---
 ### xxxxxx.h: No such file or directory
 **Fehler:**
-```
+```C++
 In file included from C:\...\PhotometerDetailed.ino:13:0:
 C:\.../desklab.h:35:10: fatal error:Adafruit_SSD1306.h: No such file or directory
 #include <Adafruit_SSD1306.h>

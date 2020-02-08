@@ -25,6 +25,7 @@ $dark-color: #224466 !default; //footer background + ?
 $gray-color: #d7d8e1 !default;
 $gray-color-light: #f5f6ff !default;
 $gray-color-dark: #9b9caf !default;
+$gray-color-darker: #303030 !default;
 
 $border-color: $gray-color-light !default;
 $border-color-dark: darken($border-color, 10%) !default;
@@ -39,7 +40,7 @@ $error: #fa5246 !default;
 
 
 // Other colors
-$code-color: #d73e48 !default;
+$code-color: #ffffff !default;
 $highgray-color-light: #ffe9b3 !default;
 $body-bg: $gray-color-light !default;
 $body-font-color: lighten($dark-color, 5%) !default;
