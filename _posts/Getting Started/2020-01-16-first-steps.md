@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Welcome to desklab"
+title: Installation & Erste Schritte
 date: 2020-01-16 21:41:00 -0400
 category: getting-started
-short-description: A quick overview to get you started
+short-description: Beschreibung der ersten Schritte zur Installation der Photometer-Software
 ---
 
 In diesem Artikel wird beschrieben, wie die Geräte der desklab gUG zusammen mit der Arduino-Entwicklungsumgebung und der bereitgestellten Software-Bibliothek programmieren zu können.

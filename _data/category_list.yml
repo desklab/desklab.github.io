@@ -2,7 +2,7 @@
 
 
 getting-started:
-  name: Getting Started
+  name: Erste Schritte
   description: Installation und Erste Schritte.
 arduino:
   name: Arduino
