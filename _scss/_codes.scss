@@ -25,7 +25,7 @@ code {
     color: inherit;
     display: block;
     line-height: 1.5;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 1rem;
     width: 100%;
   }
@@ -36,6 +36,7 @@ code {
   border: 1px solid #ccc;
   padding: 6px 10px;
   border-radius: 3px;
+  overflow-x: scroll;
 }
 
 .highlight .hll { background-color: #ffffcc }
