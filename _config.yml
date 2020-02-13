@@ -19,17 +19,19 @@
 # in the templates via {{ site.myvariable }}.
 
 title: desklab
-description: desklab support page
+description: desklab Support
 baseurl: / # the subpath of your site, e.g. /support
 url: https://support.desk-lab.de # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:title
+
+tagline: Support
 
 content_type: #Define whether this is a knowledge base, help center, or something else
 use_authors: false #Set this to false to disable showing post authors
 
 brand_logo: desklab-logo.png
 brand_name: desklab
-header: How can we help you?
+header: desklab Support
 subheader: Support und Informationen zur Nutzung von desklab Geräten & Materialien
 
 meta_image: meta.png
@@ -61,7 +63,7 @@ nav_button_two_link: https://desk-lab.de/
 
 # More Help
 help_one_title: Fehler gefunden?
-help_one_content: Verbesserungsvorschläge oder Fehler können als Issue auf Github eingereicht bzw. gemeldet werden oder per E-Mail an orga@desk-lab.de.
+help_one_content: Verbesserungsvorschläge oder Fehler können als Issue auf Github eingereicht bzw. gemeldet werden oder per E-Mail an <a href="mailto:orga@desk-lab.de">orga@desk-lab.de</a>.
 help_one_button: Github Issues
 help_one_link: https://github.com/desklab/desklab.github.io/issues
 
