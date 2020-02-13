@@ -30,7 +30,7 @@ use_authors: false #Set this to false to disable showing post authors
 brand_logo: desklab-logo.png
 brand_name: desklab
 header: How can we help you?
-subheader: Support and documentation for desklab devices
+subheader: Support und Informationen zur Nutzung von desklab Geräten & Materialien
 
 meta_image: meta.png
 
@@ -44,23 +44,26 @@ instagram_username: desklab_ug
 
 
 # Navivation
-nav_item_one: GitHub
-nav_item_one_link: https://github.com/desklab/
+nav_item_one: #GitHub
+nav_item_one_link: #https://github.com/desklab/
 
-nav_item_two: desklab Lehrerportal
-nav_item_two_link: https://desk-lab.de/docs/#
+nav_item_two: #desklab Lehrerportal
+nav_item_two_link: #https://desk-lab.de/docs/#
 
 nav_item_three: #
 nav_item_three_link: #
 
-nav_button: desklab Homepage
-nav_button_link: https://desk-lab.de/
+nav_button_one: desklab Lehrerportal
+nav_button_one_link: https://desk-lab.de/docs/
+
+nav_button_two: desklab Homepage
+nav_button_two_link: https://desk-lab.de/
 
 # More Help
 help_one_title: Fehler gefunden?
 help_one_content: Verbesserungsvorschläge oder Fehler können als Issue auf Github eingereicht bzw. gemeldet werden oder per E-Mail an orga@desk-lab.de.
 help_one_button: Github Issues
-help_one_link: https://github.com/desklab/desklab.github.io
+help_one_link: https://github.com/desklab/desklab.github.io/issues
 
 help_two_title: Unterrichtsmaterial
 help_two_content: Dokumente für den Gebrauch im Unterricht sind im desklab-Lehrerportal hinterlegt.
@@ -81,7 +84,29 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
+markdown: kramdown
+# !github-pages! mandatory › https://help.github.com/articles/using-jekyll-with-pages/#configuration-settings-you-cannot-change
+# Since Jekyll 3 the default highlighter is Rouge (replaced Pygments.rb in v44)
+highlighter: rouge
 
+# More › http://kramdown.gettalong.org/quickref.html
+# Options › http://kramdown.gettalong.org/options.html
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  #syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    #css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    #span:
+      #line_numbers: false
+    #block:
+      #line_numbers: true
+      #start_line: 1
 
 sass:
   sass_dir:          _scss
