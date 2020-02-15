@@ -112,5 +112,5 @@ kramdown:
       #start_line: 1
 
 sass:
-  sass_dir: _sass
+  sass_dir: _scss
   style: compressed
