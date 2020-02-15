@@ -28,6 +28,9 @@ a {
   &:focus {
     @include control-shadow();
   }
+  &.no-control-shadow:focus {
+    @include no-control-shadow();
+  }
 
   &:hover,
   &:active,
