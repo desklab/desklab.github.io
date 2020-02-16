@@ -7,12 +7,19 @@
   bottom: 0;
   width: 100%;
   background: #343a40ff;
-  color: rgba(255,255,255,1);
+  color: white;
 }
 
 #cookie-notice a {
   display: inline-block;
-  cursor: pointer
+  cursor: pointer;
+  color: #4a90e2;
+  
+  &:hover{
+    text-decoration: underline;
+    color: #1f69c1;
+  }
+
 }
 
 @media (max-width: 100%) {
