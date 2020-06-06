@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fehlermeldung: Probe außerhalb Messbereich oder Justierung falsch!
-date: 2020-06-06 
+date: 2020-06-06 01:00:00 -0400
 category: photometer
 short-description: Mögliche Ursachen für Fehler und Anleitung zur Behebung
 ---
