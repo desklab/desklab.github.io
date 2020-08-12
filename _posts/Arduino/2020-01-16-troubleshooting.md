@@ -20,7 +20,7 @@ compilation terminated.
 exit status 1
 Fehler beim Kompilieren für das Board Arduino Uno.
 ```
-**Erklärung:** Die Fehlermeldung `Adafruit_SSD1306.h: No such file or directory` bedeutet, dass ein **Fehler beim Einbinden der Adafruit_SSD1306 - Bibliothek** aufgetreten ist. Vermutlich ist diese Bibliothek nicht (oder nicht korrekt) installiert.
+**Erklärung:** Die Fehlermeldung `Adafruit_SSD1306.h: No such file or directory` bedeutet, dass ein **Fehler beim Einbinden der Adafruit_SSD1306 - Bibliothek** aufgetreten ist. Vermutlich ist diese Bibliothek nicht (oder nicht korrekt) installiert. Um den Fehler zu beheben, muss die **Adafruit SSD1306**-Bibliothek (neu) installiert werden.
 
 
 
@@ -34,7 +34,7 @@ compilation terminated.
 exit status 1
 Fehler beim Kompilieren für das Board Arduino Uno.
 ```
-**Erklärung:** Die Fehlermeldung `Adafruit_GFX.h: No such file or directory` bedeutet, dass ein **Fehler beim Einbinden der Adafruit_GFX - Bibliothek** aufgetreten ist. Vermutlich ist diese Bibliothek nicht (oder nicht korrekt) installiert.
+**Erklärung:** Die Fehlermeldung `Adafruit_GFX.h: No such file or directory` deutet darauf hin, dass ein **Fehler beim Einbinden der Adafruit_GFX - Bibliothek** aufgetreten ist. Vermutlich ist diese Bibliothek nicht (oder nicht korrekt) installiert. Um den Fehler zu beheben, muss die **Adafruit GFX**-Bibliothek (neu) installiert werden.
 
 ---
 ### expected ';' before '...'
@@ -45,7 +45,7 @@ In C:\...\SketchName.ino:
 SketchName:6:1: error: expected ';' before '...'
 exit status 1
 ```
-**Erklärung:** Die Fehlermeldung `expected ';' before '...'` bedeutet, dass ein **Semikolon fehlt**. Der Fehler tritt (in diesem Beispiel) in Zeile 6 auf, das bedeutet dass das Semikolon am Ende der Zeile 5 fehlt.
+**Erklärung:** Die Fehlermeldung `expected ';' before '...'` deutet darauf hin, dass ein **Semikolon fehlt**. Der Fehler tritt (in diesem Beispiel) in Zeile 6 auf, das bedeutet, dass das Semikolon am Ende der Zeile 5 fehlt.
 
 ---
 ### undefined reference to '...'
@@ -58,7 +58,7 @@ collect2.exe: error: ld returned 1 exit status
 exit status 1
 Fehler beim Kompilieren für das Board Arduino Uno.
 ```
-**Erklärung:** Die Fehlermeldung `undefined reference to 'setup'` bedeutet, dass der **'setup'-Teil des Sketches nicht gefunden** wurde.
+**Erklärung:** Die Fehlermeldung `undefined reference to 'setup'` deutet darauf hin, dass der **'setup'-Teil des Sketches nicht gefunden** wurde.
 
 
 **Fehler:**
@@ -69,7 +69,7 @@ collect2.exe: error: ld returned 1 exit status
 exit status 1
 Fehler beim Kompilieren für das Board Arduino Uno.
 ```
-**Erklärung:** Die Fehlermeldung `undefined reference to 'loop'` bedeutet, dass der **'loop'-Teil des Sketches nicht gefunden** wurde.
+**Erklärung:** Die Fehlermeldung `undefined reference to 'loop'` deutet darauf hin, dass der **'loop'-Teil des Sketches nicht gefunden** wurde.
 
 
 ---
@@ -79,17 +79,20 @@ Der Sketch verwendet 444 Bytes (1%) des Programmspeicherplatzes. Das Maximum sin
 Globale Variablen verwenden 9 Bytes (0%) des dynamischen Speichers, 2039 Bytes für lokale Variablen verbleiben. Das Maximum sind 2048 Bytes.
 Beim Hochladen des Sketches ist ein Fehler aufgetreten
 ```
--> falscher COM Port ausgewählt
+**Erklärung:** Die Fehlermeldung `Beim Hochladen des Sketches ist ein Fehler aufgetreten` kann durch einen falsch gewählten **COM-Port** verursacht werden. Um den Fehler zu beheben, muss unter __**Werkzeuge > Ports**__ der COM-Port ausgewählt werden, an dem der Microcontroller an den Computer angeschlossen ist.
+
+
 
 ---
-### Board
+### Mikrocontroller-Board
 ```
 avrdude: error: programmer did not respond to command: exit bootloader
 ```
-oder
+**Erklärung:** Die Fehlermeldung `programmer did not respond to command` kann auftreten, wenn ein falsches Mikrocontroller-Board ausgewählt ist. Um den Fehler zu beheben, muss unter __**Werkzeuge > Board**__ das Board **Arduino Uno** ausgewählt werden.
+
 ```
 avrdude: stk500v2_getsync(): timeout communicating with programmer
 Beim Hochladen des Sketches ist ein Fehler aufgetreten
 ```
+**Erklärung:** Die Fehlermeldung `Beim Hochladen des Sketches ist ein Fehler aufgetreten` kann auftreten, wenn ein falsches Mikrocontroller-Board ausgewählt ist. Um den Fehler zu beheben, muss unter __**Werkzeuge > Board**__ das Board **Arduino Uno** ausgewählt werden.
 
--> falsches Board ausgewählt
